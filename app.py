@@ -31,7 +31,7 @@ When generating a quiz, provide 3-5 challenging questions based on the topic or 
 
 # Google ka best reasoning model
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-pro-latest",
+    model_name="gemini-1.5-flash",
     system_instruction=SYNC_PERSONA
 )
 
